@@ -1,3 +1,9 @@
+class Car {
+    var brand = ""
+    var model = ""
+    var year = 0
+}
+
 fun main() {
     println("Hello World!");
     print("I am new in programming!");
@@ -49,6 +55,11 @@ fun main() {
     }
 
     myFunction("nazmul");
+
+    val c1 = Car()
+    c1.brand = "Ford"
+    c1.model = "Mustang"
+    c1.year = 1969
 }
 
 fun myFunction(fname: String) {
