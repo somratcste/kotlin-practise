@@ -38,4 +38,9 @@ fun main() {
 
     val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
     println(cars[0])
+
+    val cars2 = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+    for (x in cars2) {
+        println(x)
+    }
 }
