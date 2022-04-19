@@ -43,4 +43,8 @@ fun main() {
     for (x in cars2) {
         println(x)
     }
+
+    for (nums in 5..15) {
+        println(nums)
+    }
 }
