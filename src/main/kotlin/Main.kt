@@ -60,8 +60,23 @@ fun main() {
     c1.brand = "Ford"
     c1.model = "Mustang"
     c1.year = 1969
+
+    val myObj = MyChildClass()
+    myObj.myFunction()
 }
 
 fun myFunction(fname: String) {
     println(fname + " Doe")
+}
+
+// Superclass
+open class MyParentClass {
+    val x = 5
+}
+
+// Subclass
+class MyChildClass: MyParentClass() {
+    fun myFunction() {
+        println(x) // x is now inherited from the superclass
+    }
 }
