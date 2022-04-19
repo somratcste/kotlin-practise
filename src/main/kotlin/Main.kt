@@ -1,7 +1,16 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    println("Hello World!");
+    print("I am new in programming!");
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    var name = "John"      // String (text)
+    val birthyear = 1975   // Int (number)
+
+    println(name)          // Print the value of name
+    println(birthyear)     // Print the value of birthyear
+
+    val myNum: Int = 5                // Int
+    val myDoubleNum: Double = 5.99    // Double
+    val myLetter: Char = 'D'          // Char
+    val myBoolean: Boolean = true     // Boolean
+    val myText: String = "Hello"
 }
