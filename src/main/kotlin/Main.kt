@@ -35,4 +35,7 @@ fun main() {
         else -> "Invalid day."
     }
     println(result)
+
+    val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+    println(cars[0])
 }
