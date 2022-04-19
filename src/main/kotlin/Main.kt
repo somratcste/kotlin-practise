@@ -47,4 +47,10 @@ fun main() {
     for (nums in 5..15) {
         println(nums)
     }
+
+    myFunction("nazmul");
+}
+
+fun myFunction(fname: String) {
+    println(fname + " Doe")
 }
