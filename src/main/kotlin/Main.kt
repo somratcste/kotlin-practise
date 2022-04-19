@@ -17,4 +17,8 @@ fun main() {
     val x: Int = 5
     val y: Long = x.toLong()
     println(y)
+
+    var firstName = "John"
+    var lastName = "Doe"
+    println("My name is $firstName $lastName")
 }
