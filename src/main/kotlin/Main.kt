@@ -13,4 +13,8 @@ fun main() {
     val myLetter: Char = 'D'          // Char
     val myBoolean: Boolean = true     // Boolean
     val myText: String = "Hello"
+
+    val x: Int = 5
+    val y: Long = x.toLong()
+    println(y)
 }
